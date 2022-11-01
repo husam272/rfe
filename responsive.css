@@ -295,7 +295,17 @@
     }
 }
 
+@media screen and (max-width: 1100px){
+    .algn .cont{
+        margin-top: 10%;
+    }
+}
+
 @media screen and (max-width: 991px){
+
+    .algn .cont{
+        margin-top: 15%;
+    }
     
     .main .aln .sp_page .c1 button{
         width: 50%;
@@ -336,6 +346,11 @@
 
     #prev{
         margin-left: 2rem;
+    }
+    .main .mentor .slid .slid_r .row{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        
     }
 
     .main .reviews .feed .feed_slide #feed_outbox{
@@ -434,20 +449,35 @@
 
 
 @media screen and (max-width: 792px) {
-    
+    .main .aln {
+        margin-top: 5%;
+    }
+
+    .algn .cont{
+        margin-top: 25%;
+    }
     
     .main{
         /* overflow-x: hidden; */
         /* margin: auto; */
         /* width: 100%; */
     }
+    .main .bg-c{
+        height: 129vh;
+        background-position-x:-8px ;
+        background-size: 274%;
+    }
 
     .main .bg-c{
-        height: 130vh;
+        height: 120vh;
     }
 
     .main .aln .sp_page{
-        transform: translate(0px , 0px);
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 70vh;
+        transform: translate(-3rem,-1rem);
     }
 
     .main .aln .sp_page .row{
@@ -465,7 +495,7 @@
     }
 
     .main .aln .sp_page .c2 .image{
-        margin-left: 2rem;
+        margin-left: -3rem;
         transform: translate(8rem, 8rem);
     }
 
@@ -512,9 +542,9 @@
         max-width: 100%;
     }
 
-    .main .mentor .slid .slid_r #slid_card .row{
+    /* .main .mentor .slid .slid_r #slid_card .row{
         flex-wrap: nowrap;   
-    }
+    } */
 
     .main .mentor .slid .slid_r #slid_card #crd_clr{
         width: 14rem;
@@ -524,6 +554,7 @@
     .main .mentor .slid .slid_r #crd_clr #crd_img{
         width: 100px;
         height: 150px;
+        margin-left: 0%;
     }
 
     .main .reviews .feed .feed_slide {
@@ -558,7 +589,24 @@
     .container{
         max-width: 100%;
     }
+    .main .mentor .slid{
+        height: 100vh;
+    }
+    .main .mentor .slid .row{
+        gap: 30px;
+    }
+    .main .mentor .slid .slid_r .row{
+        display:grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .main .mentor .slid .slid_r .col{
+        width: 100%;
+        margin-left: 14%;
+    }
+    
 }
+
 
 
 @media screen and (max-width: 692px) {
@@ -569,6 +617,11 @@
 
     .container{
         max-width: 100%;
+    }
+    .main .bg-c{
+        height: 129vh;
+        background-position-x:-8px ;
+        background-size: 350%;
     }
 
     .main .aln .sp_page .c2 .image img {
@@ -636,6 +689,16 @@
 
     .main .mentor .head4 .txt4{
         font-size: 11px;
+    }
+    .main .mentor .slid{
+        height: 100vh;
+    }
+    .main .mentor .slid .row{
+        gap: 30px;
+    }
+    .main .mentor .slid .slid_r .col{
+        width: 100%;
+        margin-left: 14%;
     }
 
     #crd_cnt h4{
@@ -748,6 +811,10 @@
         /* margin: auto; */
         /* max-width: 100%; */
     }
+    .main .aln{
+        width: 100%;
+        margin-left: 1%;
+    }
 
     .main .aln .sp_page .c1 {
         margin-top: 10rem;
@@ -756,7 +823,7 @@
     .main .aln .sp_page .c2 .image{
         margin-left: 1rem;
         width: 88%;
-        transform: translate(5rem, 8.5rem);
+        transform: translate(10rem, 8.5rem);
     }
 
 
@@ -827,6 +894,21 @@
     .main .mentor{
         padding-bottom: 0rem;
     }
+    .main .mentor .slid{
+        height: 100vh;
+    }
+    .main .mentor .slid .row{
+        gap: 30px;
+    }
+    .main .mentor .slid .slid_r .row{
+        display:grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .main .mentor .slid .slid_r .col{
+        width: 100%;
+        margin-left: 14%;
+    }
 
     .main .reviews .head5 .sub-cont{
         max-width: 50%;
@@ -854,6 +936,7 @@
         min-height: 100vh;
     }
 
+
     .main footer .f_bg .container{
         max-width: 100%;
     }
@@ -880,7 +963,7 @@
         padding-bottom: 0rem;
     }
 
-    .main footer .f_bg #fc_2{
+    .main footer .f_bg #fc_3{
         display: flex;
         flex-direction: column;
     }
@@ -894,7 +977,7 @@
     }
 
     .main footer .f_bg #fc_3{
-        width: 50%;
+        width: 34%;
         transform: translate(20rem, 0rem);
     }
 
@@ -905,7 +988,16 @@
     .main footer .f_bg .copy{
         margin-top: 0.2rem;
     }
+    
 
+}
+
+@media screen and (max-width:550px) {
+    .main .bg-c{
+        height: 129vh;
+        background-position-x:-8px ;
+        background-size: 390%;
+    }
 }
 
 @media screen and (max-width:492px) {
@@ -913,10 +1005,26 @@
     .main{
         width: 100%;
     }
+    .main .bg-c{
+        height: 130vh;
+        background-position-x:-8px ;
+        background-size: 490%;
+    }
+    .algn .cont{
+        margin-top: 50%;
+    }
+    .main .aln .sp_page .container{
+        padding-top: 20%;
+    }
 
-    .main .aln .sp_page .c2 .image img{
+    .main .aln .sp_page .c2 .image{
         width: 19rem;
         height: 15rem;
+        transform: translate(-8rem,12rem);
+    }
+
+    .main .aln .sp_page .c2 .image img{
+        transform: translate(11rem,1rem);
     }
 
     .main .align2 .ad_bg {
@@ -1000,10 +1108,63 @@
     .main footer .f_bg #fc_2 .cont2{
         margin-top: 18rem;
     }
+    .main footer .f_bg #fc_3{
+        width: 34%;
+        transform: translate(15rem, 0rem);
+    }
+    .main .reviews{
+        height: 115vh;
+    }
+    .main .reviews .row{
+        margin-left: 20px;
+    }
+    .main #feed_inbox{
+        margin-bottom: 20px;
+    }
+    .main .reviews .row #feed_cnt{
+        padding-top: 42px;
+    }
+    .main .reviews .col{
+        display: contents;
+    }
+    .main .reviews .r_bottom{
+        margin-top: 48%;
+    }
 
+}
+@media screen and (max-width: 415px){
+    .main .align2{
+        height: 110vh;
+    }
+    .main .align2 .achieve{
+        margin-left: 7rem;
+    }
 }
 
 @media screen and (max-width: 396px) {
+    .main .bg-c{
+        height: 130vh;
+        background-position-x:-8px ;
+        background-size: 580%;
+    }
+
+    .main .aln .sp_page .c2 .image img {
+        width: 17rem;
+        height: 13rem;
+    }
+
+    .main .aln .sp_page{
+        margin-left: 2%;
+    }
+
+
+    .main .aln .sp_page .c2 .image{
+
+        transform: translate(-10rem,10rem);
+    }
+    .algn .cont{
+        margin-top: 56%;
+    }
     
     .main .aln .sp_page .c1 .heading h1{
         font-size: 18px;
@@ -1019,8 +1180,138 @@
 
     .main .algn .cont .crd .crd_a{
         width: 55%;
+        height: 55%;
+    }
+
+    .main .algn .cont .crd .crd_a .sd-2 .txt{
+        font-size: 10px;
+    }
+
+    .main .align2 {
+        height: 94vh;
+    }
+
+    .main .align2 .achieve{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .main .align2 .achieve .box{        
+        height: 30%;
+    }
+    .main .mentor .slid .slid_r #slid_card .row{
+        margin-left: -23%;
+    }
+
+    .main .reviews{
+        height: 100vh;
+    }
+
+    .main .reviews .r_bottom .txt{
+        margin-left: 1rem;
+    }
+
+    .main .reviews .r_bottom .btns{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 5rem;
     }
 
 
+    .main .reviews .r_bottom button:nth-child(1){
+        width: 75%;
+    }
+
+    .main .reviews .r_bottom button:nth-child(2){
+        width: 75%;
+    }
+
+    .main footer .f_bc{
+        min-height: 150vh;
+    }
+
+    .main footer .f_bg .container .row{
+        justify-content: center;
+    }
+
+    .main footer .f_bg #fc_1 .cont{
+        width: 100%;
+    }
+
+    .main footer .f_bg #fc_2 {
+        transform: translate(-6rem, 17rem);
+    }
+
+    .main footer .f_bg #fc_3 {
+        transform: translate(2rem, 20rem);
+    }
+
+    .main footer .f_bg #fc_3 .cont3 .fc_h3{
+        padding-bottom: 1rem;
+    }
+
+    #f_br {
+        margin-top: 50rem;
+    }
+
+    .main footer .f_bg .copy div{
+        font-size: 8px;
+    }
+    .main .reviews{
+        height: 130vh;
+    }
+    .main .reviews .row{
+        margin-left: 20px;
+    }
+    .main #feed_inbox{
+        margin-bottom: 20px;
+    }
+    .main .reviews .row #feed_cnt{
+        padding-top: 42px;
+    }
+    .main .reviews .r_bottom{
+        margin-top: 56%;
+    }
+    .main footer .f_bg #fc_2 .cont2{
+        margin-top: 22rem;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    
+    .main .aln .sp_page .c1 {
+        margin-top: 10rem;
+    }
+
+    .main .aln .sp_page .c2 .image img {
+        width: 14rem;
+        height: 13rem;
+    }
+
+    .main .align2 .achieve{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        gap: 3rem;
+    }
+
+    .main .align2 {
+        height: 140vh;
+    }
+    .main .mentor .slid .slid_r .col{
+        margin-left: 0%;
+    }
+
+    .main footer .f_bg #fc_1 .cont {
+        width: 110%;
+    }
+
+    .main .reviews .r_bottom .btns{
+        margin-left: 3rem;
+    }
+
+    .main footer .f_bg #fc_2 {
+        transform: translate(-4rem, 17rem);
+    }
 
 }
